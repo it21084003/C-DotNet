@@ -1,0 +1,96 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\C#\\DotNetAPICourse-main\\DotNetAPICourse-main\\2-Intermediate\\5-HelloWorld_Files\\HelloWorld.csproj": {}
+  },
+  "projects": {
+    "D:\\C#\\DotNetAPICourse-main\\DotNetAPICourse-main\\2-Intermediate\\5-HelloWorld_Files\\HelloWorld.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\C#\\DotNetAPICourse-main\\DotNetAPICourse-main\\2-Intermediate\\5-HelloWorld_Files\\HelloWorld.csproj",
+        "projectName": "HelloWorld",
+        "projectPath": "D:\\C#\\DotNetAPICourse-main\\DotNetAPICourse-main\\2-Intermediate\\5-HelloWorld_Files\\HelloWorld.csproj",
+        "packagesPath": "C:\\Users\\it210\\.nuget\\packages\\",
+        "outputPath": "D:\\C#\\DotNetAPICourse-main\\DotNetAPICourse-main\\2-Intermediate\\5-HelloWorld_Files\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\it210\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
